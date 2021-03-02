@@ -3,13 +3,13 @@
 ### Update & Upgrade.
 
 ```
-apt update -y && apt dist-upgrade -y
+sudo apt update -y && sudo apt dist-upgrade -y
 ```
 
 ### Install update manager core.
 
 ```
-apt install update-manager-core -y
+sudo apt install update-manager-core -y
 ```
 
 ### Configure available releases to LTS.
@@ -29,22 +29,22 @@ sed -i 's/^/#/' /etc/apt/sources.list.d/*.list
 ```
 
 ```
-apt update -y
+sudo apt update -y
 ```
 
 ```
-apt upgrade -y
+sudo apt upgrade -y
 ```
 
 ```
-apt dist-upgrade -y
+sudo apt dist-upgrade -y
 ```
 
 ```
-apt autoremove -y
+sudo apt autoremove -y
 ```
 
 ```
-apt clean -y
+sudo apt clean -y
 ```
 
