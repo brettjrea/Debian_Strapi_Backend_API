@@ -20,6 +20,8 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
+*Respond to prompts
+
 ```
 sudo apt dist-upgrade -y
 ```
