@@ -28,4 +28,3 @@ apt autoremove -y
 
 apt clean -y
 
-lsb_release -a
