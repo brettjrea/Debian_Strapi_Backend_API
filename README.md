@@ -12,10 +12,6 @@ sudo bash upgrade.sh
 ```
 
 ```
-sudo apt dist-upgrade -y
-```
-
-```
 sudo apt autoremove -y
 ```
 
