@@ -1,6 +1,8 @@
 # Debian_Bullseye_Strapi_API
 
 ```
+sudo apt update && sudo apt upgrade
+sudo apt install wget
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Strapi_API/master/upgrade.sh &&
 sudo bash fixscripts.sh &&
