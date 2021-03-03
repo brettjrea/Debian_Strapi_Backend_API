@@ -13,7 +13,7 @@ sudo bash upgrade.sh
 sudo apt update -y && sudo apt dist-upgrade -y
 ```
 
-### Switch repos from bionic to disco.
+### Switch repos from buster to bullseye.
 
 ```
 sed -i 's/buster/bullseye/g' /etc/apt/sources.list
