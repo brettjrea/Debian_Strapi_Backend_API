@@ -1,12 +1,14 @@
 # Debian_Bullseye_Strapi_API
 
 ```
-sudo apt update -y && sudo apt upgrade -y
-sudo apt install wget -y
+sudo apt update -y &&
+sudo apt upgrade -y &&
+sudo apt autoremove -y &&
+sudo apt install wget -y &&
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
 wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Strapi_API/master/upgrade.sh &&
-sudo bash fixscripts.sh &&
-sudo bash upgrade.sh
+bash fixscripts.sh &&
+bash upgrade.sh
 ```
 
 ### Update & Upgrade.
