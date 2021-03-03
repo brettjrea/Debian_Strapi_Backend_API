@@ -11,28 +11,6 @@ sudo bash fixscripts.sh &&
 sudo bash upgrade.sh
 ```
 
-### Update & Upgrade.
-
-```
-sudo apt update -y && sudo apt dist-upgrade -y
-```
-
-### Switch repos from buster to bullseye.
-
-```
-sed -i 's/buster/bullseye/g' /etc/apt/sources.list
-```
-
-```
-sudo apt update -y
-```
-
-```
-sudo apt upgrade -y
-```
-
-Respond to prompts
-
 ```
 sudo apt dist-upgrade -y
 ```
