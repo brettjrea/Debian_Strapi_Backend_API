@@ -38,10 +38,6 @@ npm install -g yarn
 ```
 
 ```
-yarn
-```
-
-```
 yarn create strapi-app my-project --quickstart
 ```
 
