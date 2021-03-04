@@ -14,12 +14,7 @@ sudo apt clean -y
 ```
 
 ```
-sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ wget -y
-```
-
-```
-wget https://raw.githubusercontent.com/jcupitt/libvips/8.4/python/packages/gi/overrides/Vips.py \
-    -O /usr/lib/python2.7/dist-packages/gi/overrides/Vips.py
+sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ -y
 ```
 
 ```
