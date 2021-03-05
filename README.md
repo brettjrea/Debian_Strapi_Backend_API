@@ -48,3 +48,16 @@ cd my-project
 ```
 yarn develop
 ```
+
+*If you want to run other versions of Node you can set this apps version in a .nvmrc file with the following command.
+
+```
+echo "14.16.0" > .nvmrc
+```
+
+*Then run the app with NPM instead of yarn with the following command.*
+
+```
+npm run develop
+```
+
