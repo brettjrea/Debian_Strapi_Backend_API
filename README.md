@@ -13,16 +13,11 @@ sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8
 npm install -g yarn
 yarn create strapi-app my-backend --quickstart
 cd my-backend
-yarn develop
-```
-
-*If you want to run other versions of Node you can set this apps version in a .nvmrc file with the following command.
-
-```
 echo "14.16.0" > .nvmrc
+npm run develop
 ```
 
-*Then run the app with NPM instead of yarn with the following command.*
+*The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
 
 ```
 npm run develop
