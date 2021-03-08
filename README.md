@@ -1,19 +1,6 @@
 # Debian_Bullseye_Strapi_API
 
 ```
-sudo apt update -y &&
-sudo apt upgrade -y &&
-sudo apt autoremove -y &&
-sudo apt install wget -y &&
-wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh &&
-wget https://raw.githubusercontent.com/brettjrea/Debian_Bullseye_Strapi_API/master/upgrade.sh &&
-sudo bash fixscripts.sh &&
-sudo bash upgrade.sh && 
-sudo apt autoremove -y &&
-sudo apt clean -y
-```
-
-```
 sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ -y
 ```
 
