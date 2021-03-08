@@ -38,11 +38,11 @@ npm install -g yarn
 ```
 
 ```
-yarn create strapi-app my-project --quickstart
+yarn create strapi-app my-backend --quickstart
 ```
 
 ```
-cd my-project
+cd my-backend
 ```
 
 ```
@@ -58,6 +58,13 @@ echo "14.16.0" > .nvmrc
 *Then run the app with NPM instead of yarn with the following command.*
 
 ```
+npm run develop
+```
+
+*Quickly start after a shutdown or reboot.*
+
+```
+cd my-backend
 npm run develop
 ```
 
