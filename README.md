@@ -13,10 +13,6 @@ sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8
 ```
 
 ```
-nvm install 14.16.0
-```
-
-```
 npm install -g yarn
 ```
 
