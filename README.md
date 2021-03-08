@@ -51,3 +51,6 @@ cd my-backend
 npm run develop
 ```
 
+---
+
+*You might now want to install [Gatsby.js](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
