@@ -1,5 +1,13 @@
 # Debian_Strapi_Backend_API
 
+## Prerequisites:
+
+* [Upgrade Debian Buster to Bullseye](https://github.com/brettjrea/Debian_Bullseye_Upgrade_Script)
+* [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)
+
+---
+
+## Commands:
 ```
 sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ -y
 ```
