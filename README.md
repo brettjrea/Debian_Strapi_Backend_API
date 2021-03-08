@@ -1,4 +1,4 @@
-# Debian_Bullseye_Strapi_API
+# Debian_Strapi_Backend_API
 
 ```
 sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ -y
