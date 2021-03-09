@@ -7,9 +7,24 @@
 
 ---
 
+## Always be updating:
+
+```
+sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
+```
+
+---
+
+## Install required programs:
+
+```
+sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
+```
+
+---
+
 ## Commands:
 ```
-sudo apt install libvips libvips-dev libvips-tools curl git python gir1.2-vips-8.0 make g++ -y
 npm install -g yarn
 yarn create strapi-app my-backend --quickstart
 cd my-backend
