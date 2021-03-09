@@ -7,21 +7,31 @@
 
 ---
 
+## Quickscript: 
+
+```
+sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
+sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
+npm install -g yarn
+yarn create strapi-app my-backend --quickstart
+cd my-backend
+echo "14.16.0" > .nvmrc
+npm run develop
+```
+
+---
+
 ## Always be updating:
 
 ```
 sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
 ```
 
----
-
 ## Install required programs:
 
 ```
 sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
 ```
-
----
 
 ## Commands:
 ```
@@ -31,6 +41,8 @@ cd my-backend
 echo "14.16.0" > .nvmrc
 npm run develop
 ```
+
+---
 
 *The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
 
