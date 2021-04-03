@@ -61,4 +61,6 @@ npm run develop
 
 ---
 
-*You might now want to [install a Gatsby.js](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
+*You might now want to [install a Gatsby.js w/ Styled-Components.](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
+
+*You might now want to [install a Gatsby.js w/ Emotion and TailwindCSS.](https://github.com/brettjrea/Gatsby_Typescript_Emotion_TailwindCSS) frontend*
