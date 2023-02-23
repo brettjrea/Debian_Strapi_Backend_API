@@ -20,58 +20,96 @@ sudo apt autoremove -y &&
 sudo apt clean -y
 ```
 
-
-### Quickscript: 
+### This is a copy-paste oneliner. 
 
 ```
-sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
-sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
-npm install -g yarn
-yarn create strapi-app my-backend --quickstart
-cd my-backend
-echo "14.16.0" > .nvmrc
+sudo apt update -y && sudo apt upgrade -y && 
+sudo apt autoremove -y &&
+sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y && 
+npm install -g yarn && 
+yarn create strapi-app my-backend --quickstart && 
+cd my-backend && echo "18.14.2" > .nvmrc && 
 npm run develop
 ```
+---
+
+### Command Breakdown
+In this command, we will update and upgrade the package lists of the system, remove any unneeded packages, install necessary packages for Strapi, install Yarn globally using npm, create a new Strapi project with the quickstart flag, navigate to the newly created Strapi project directory, create a .nvmrc file to specify the Node.js version to use and start the Strapi development server.
+
+### Update and Upgrade Package Lists
+
+```
+sudo apt update -y && sudo apt upgrade -y
+```
+
+This command updates the list of available packages and their versions, and then upgrades all installed packages to their latest versions.
+
+___
+
+### Remove Unneeded Packages
+
+sudo apt autoremove -y
+This command removes any packages that are no longer required by the system.
+
+___
+
+### Install Necessary Packages for Strapi
+
+```
+sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
+```
+
+This command installs the necessary packages required to run Strapi.
 
 ---
 
-## Script breakdown:
+### Install Yarn Globally using NPM
 
-### Always be updating:
-
-```
-sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y
-```
-
-### Install required programs:
-
-```
-sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
-```
-
-### Commands:
 ```
 npm install -g yarn
-yarn create strapi-app my-backend --quickstart
-cd my-backend
-echo "14.16.0" > .nvmrc
-npm run develop
 ```
+
+This command installs Yarn globally using npm.
 
 ---
 
-*The above command used echo to set this apps node version in a .nvmrc file so you need to run the app with NPM instead of yarn with the following command.*
+### Create a New Strapi Project with Quickstart Flag
 
 ```
-npm run develop
+yarn create strapi-app my-backend --quickstart
 ```
 
-*Quickly start after a shutdown or reboot.*
+This command creates a new Strapi project with the quickstart flag.
+
+----
+
+### Navigate to the Newly Created Strapi Project Directory
 
 ```
 cd my-backend
+```
+
+This command navigates to the directory of the newly created Strapi project.
+
+---
+
+### Create a .nvmrc File to Specify the Node.js Version to Use
+
+```
+echo "18.14.2" > .nvmrc
+```
+
+This command creates a .nvmrc file in the Strapi project directory with the specified Node.js version.
+
+---
+
+### Start the Strapi Development Server
+
+```
 npm run develop
 ```
+
+This command starts the Strapi development server, allowing you to start building your Strapi application.
 
 ---
 
