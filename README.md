@@ -7,6 +7,20 @@
 
 ---
 
+### This new one fetches a script from this repo which is useful for using inside of another script.
+
+```
+sudo apt upgrade -y && sudo apt update -y && sudo apt autoremove -y &&
+sudo apt install wget &&
+sudo apt-get install --reinstall ca-certificates -y &&
+wget https://raw.githubusercontent.com/brettjrea/Debian_Strapi_Backend_API/main/install-strapi.sh &&
+chmod +x install-strapi.sh &&
+./install-strapi.sh &&
+sudo apt autoremove -y &&
+sudo apt clean -y
+```
+
+
 ### Quickscript: 
 
 ```
