@@ -9,7 +9,8 @@
 * [Install NVS](https://github.com/brettjrea/Debian_Install_NVS)
 *Added 02/23 it is a cross-platform node based successor/replacement for NVM.*
 ---
-
+*You should now [Install common build tools.](https://github.com/brettjrea/Debian_Install_Common_Build_Tools)*
+___
 ### This new one fetches a script from this repo which is useful for using inside of another script.
 
 ```
