@@ -13,6 +13,9 @@ sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g
 # Install Yarn globally using npm
 npm install -g yarn
 
+# Install PM2 (Process Manager for Node)
+yarn global add pm2
+
 # Create a new Strapi project with the quickstart flag
 yarn create strapi-app my-backend --quickstart
 
