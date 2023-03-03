@@ -25,6 +25,10 @@ cd my-backend
 # Create a .nvmrc file to specify the Node.js version to use
 echo "18.14.2" > .nvmrc
 
+# server.js for PM2
+echo "const strapi = require('@strapi/strapi');
+strapi().start();" > server.js
+
 # Add an ecosystem.config.js file
 echo "module.exports = {
   apps: [
