@@ -30,6 +30,7 @@ echo "module.exports = {
   apps: [
     {
       name: 'strapi',
+      cwd: '~/my-backend/'
       script: 'yarn',
       args: 'strapi develop',
     }, {
