@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Update package lists and upgrade packages to their latest versions
@@ -21,5 +22,21 @@ cd my-backend
 # Create a .nvmrc file to specify the Node.js version to use
 echo "18.14.2" > .nvmrc
 
-# Start the Strapi development server
-npm run develop
+# Add an ecosystem.config.js file
+echo "module.exports = {
+  apps: [
+    {
+      name: 'strapi',
+      script: 'yarn',
+      args: 'strapi develop',
+    }, {
+      script: 'yarn',
+      // seperate error logs
+      error_file: 'err.log',
+      out_file: 'out.log',
+      //combine error logs and other logs
+      log_file: 'combined.log',
+      time: true
+    }
+  ],
+};" > ecosystem.config.js
