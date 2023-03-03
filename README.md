@@ -32,7 +32,7 @@ sudo apt autoremove -y &&
 sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y && 
 npm install -g yarn && 
 yarn global add pm2 &&
-yarn create strapi-app my-backend --quickstart && 
+yarn create strapi-app my-backend --quickstart --no-run && 
 cd my-backend && echo "18.14.2" > .nvmrc && 
 npm run develop
 ```
@@ -89,7 +89,7 @@ yarn global add pm2
 ### Create a New Strapi Project with Quickstart Flag
 
 ```
-yarn create strapi-app my-backend --quickstart
+yarn create strapi-app my-backend --quickstart --no-run
 ```
 
 This command creates a new Strapi project with the quickstart flag.
