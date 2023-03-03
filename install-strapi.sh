@@ -17,7 +17,7 @@ npm install -g yarn
 yarn global add pm2
 
 # Create a new Strapi project with the quickstart flag
-yarn create strapi-app my-backend --quickstart
+yarn create strapi-app my-backend --quickstart --no-run
 
 # Navigate to the newly created Strapi project directory
 cd my-backend
