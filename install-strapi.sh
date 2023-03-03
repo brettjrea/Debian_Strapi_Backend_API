@@ -43,3 +43,7 @@ echo "module.exports = {
     }
   ],
 };" > ecosystem.config.js
+
+# Use PM2 to start Strapi in background.
+
+pm2 start yarn --name "strapi" -- strapi develop
