@@ -31,6 +31,7 @@ sudo apt update -y && sudo apt upgrade -y &&
 sudo apt autoremove -y &&
 sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y && 
 npm install -g yarn && 
+yarn global add pm2 &&
 yarn create strapi-app my-backend --quickstart && 
 cd my-backend && echo "18.14.2" > .nvmrc && 
 npm run develop
@@ -74,6 +75,14 @@ npm install -g yarn
 ```
 
 This command installs Yarn globally using npm.
+
+---
+
+### Install pm2 (Process Manager for Node)
+
+```
+yarn global add pm2
+```
 
 ---
 
