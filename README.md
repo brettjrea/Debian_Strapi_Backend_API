@@ -36,7 +36,7 @@ I seperated the command to start development because I am using PM2 from the lin
 
 *You might now want to [install a Gatsby.js w/ Emotion and TailwindCSS.](https://github.com/brettjrea/Gatsby_Typescript_Emotion_TailwindCSS) frontend*
 
-### This is a copy-paste oneliner for those who may be weary of using a script. 
+### This is a copy-paste oneliner for those who dont want to use a script. 
 
 ```
 sudo apt update -y && sudo apt upgrade -y && 
@@ -46,7 +46,7 @@ npm install -g yarn &&
 yarn global add pm2 &&
 yarn create strapi-app my-backend --quickstart --no-run && 
 cd my-backend && echo "18.14.2" > .nvmrc && 
-npm run develop
+cd ~/my-backend && yarn develop
 ```
 ---
 <details>
