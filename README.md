@@ -32,6 +32,10 @@ I seperated the command to start development because I am using PM2 from the lin
 ---
 *You might now want to [Configure PM2](https://github.com/brettjrea/Debian_Configure_PM2) a node based Process mananger to launch the strapi backend and Gatsby frontend with one command from the terminal to run at the same time in the background so you can still use your terminal.*
 
+*You might now want to [install a Gatsby.js w/ Styled-Components.](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
+
+*You might now want to [install a Gatsby.js w/ Emotion and TailwindCSS.](https://github.com/brettjrea/Gatsby_Typescript_Emotion_TailwindCSS) frontend*
+
 ### This is a copy-paste oneliner. 
 
 ```
@@ -127,13 +131,7 @@ This command creates a .nvmrc file in the Strapi project directory with the spec
 ### Start the Strapi Development Server
 
 ```
-npm run develop
+cd ~/my-backend && yarn develop
 ```
 
 This command starts the Strapi development server, allowing you to start building your Strapi application.
-
----
-
-*You might now want to [install a Gatsby.js w/ Styled-Components.](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components) frontend*
-
-*You might now want to [install a Gatsby.js w/ Emotion and TailwindCSS.](https://github.com/brettjrea/Gatsby_Typescript_Emotion_TailwindCSS) frontend*
