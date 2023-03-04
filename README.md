@@ -24,6 +24,14 @@ sudo apt autoremove -y &&
 sudo apt clean -y
 ```
 
+```
+cd my-backend && yarn deploy
+```
+I seperated the command to start development because I am using PM2 from the link below. 👇 
+
+---
+*You might now want to [Configure PM2](https://github.com/brettjrea/Debian_Configure_PM2) a node based Process mananger to launch the strapi backend and Gatsby frontend with one command from the terminal to run at the same time in the background so you can still use your terminal.*
+
 ### This is a copy-paste oneliner. 
 
 ```
