@@ -25,7 +25,7 @@ sudo apt clean -y
 ```
 
 ```
-cd my-backend && yarn deploy
+cd ~/my-backend && yarn deploy
 ```
 I seperated the command to start development because I am using PM2 from the link below. 👇 
 
