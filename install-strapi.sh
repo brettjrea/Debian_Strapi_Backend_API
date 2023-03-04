@@ -22,33 +22,6 @@ yarn create strapi-app my-backend --quickstart --no-run
 # Navigate to the newly created Strapi project directory
 cd my-backend
 
-# Create a .nvmrc file to specify the Node.js version to use
-echo "18.14.2" > .nvmrc
-
 # server.js for PM2
 echo "const strapi = require('@strapi/strapi');
 strapi().start();" > server.js
-
-# Add an ecosystem.config.js file
-echo "module.exports = {
-  apps: [
-    {
-      name: 'strapi',
-      cwd: '~/my-backend/'
-      script: 'yarn',
-      args: 'strapi develop',
-    }, {
-      script: 'yarn',
-      // seperate error logs
-      error_file: 'err.log',
-      out_file: 'out.log',
-      //combine error logs and other logs
-      log_file: 'combined.log',
-      time: true
-    }
-  ],
-};" > ecosystem.config.js
-
-# Use PM2 to start Strapi in background.
-
-pm2 start yarn --name "strapi" -- strapi develop
