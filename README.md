@@ -1,16 +1,24 @@
 # Debian_Strapi_Backend_API
 
-* You might have [Upgraded to Buster](https://github.com/brettjrea/Debian_Bullseye_Upgrade_Script)
-* You might have [Upgraded to Jammy](https://github.com/brettjrea/Ubuntu_Jammy_Upgrade_Script)
-
+___
+*Optional:*
+* [Upgrade Debian Bullseye to Buster](https://github.com/brettjrea/Debian_Bullseye_Upgrade_Script)
+* [Upgrade Ubuntu Focal to Jammy](https://github.com/brettjrea/Ubuntu_Jammy_Upgrade_Script)
 ---
-## You will need node.
+*You will need node.*
+
 * [Install NVM](https://github.com/brettjrea/Debian_Install_NVM)
 * [Install NVS](https://github.com/brettjrea/Debian_Install_NVS)
 *Added 02/23 it is a cross-platform node based successor/replacement for NVM.*
 ---
-*You should now [Install common build tools.](https://github.com/brettjrea/Debian_Install_Common_Build_Tools)*
+*You will need these build tools.*
+
+*[Install common build tools.](https://github.com/brettjrea/Debian_Install_Common_Build_Tools)*
 ___
+*[Install Strapi.io backend](https://github.com/brettjrea/Debian_Strapi_Backend_API)*
+___
+*[Install Gatsby frontend](https://github.com/brettjrea/Gatsby_Typescript_Styled_Components)*
+
 ### This new one fetches a script from this repo which is useful for using inside of another script.
 
 ```
