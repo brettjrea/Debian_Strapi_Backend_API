@@ -36,7 +36,7 @@ I seperated the command to start development because I am using PM2 from the lin
 
 *You might now want to [install a Gatsby.js w/ Emotion and TailwindCSS.](https://github.com/brettjrea/Gatsby_Typescript_Emotion_TailwindCSS) frontend*
 
-### This is a copy-paste oneliner. 
+### This is a copy-paste oneliner for those who may be weary of using a script. 
 
 ```
 sudo apt update -y && sudo apt upgrade -y && 
@@ -51,7 +51,7 @@ npm run develop
 ---
 <details>
 <summary>
-### Command Breakdown
+Command Breakdown
 </summary>
 
 In this command, we will update and upgrade the package lists of the system, remove any unneeded packages, install necessary packages for Strapi, install Yarn globally using npm, create a new Strapi project with the quickstart flag, navigate to the newly created Strapi project directory, create a .nvmrc file to specify the Node.js version to use and start the Strapi development server.
