@@ -25,18 +25,22 @@ cd my-backend && echo "18.14.2" > .nvmrc
 echo "const strapi = require('@strapi/strapi');
 strapi().start();" > server.js
 
+# Start Strapi with PM2
 pm2 start yarn --name my-backend -- start
 
+# Wait for 20 seconds
 sleep 20
 
+# Stop Strapi with PM2
 pm2 stop my-backend
 
+# Delete all PM2 processes
 pm2 delete all
 
 # Install the init admin user plugin
 yarn add strapi-plugin-init-admin-user
 
-# Set up environment variables
+# Set up environment variables and append to existing .env file
 echo "INIT_ADMIN_USERNAME=admin
 INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
