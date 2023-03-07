@@ -31,6 +31,7 @@ sleep 20
 
 pm2 stop my-backend
 
+pm2 delete all
 
 # Install the init admin user plugin
 yarn add strapi-plugin-init-admin-user
@@ -41,5 +42,3 @@ INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
 INIT_ADMIN_LASTNAME=Admin
 INIT_ADMIN_EMAIL=admin@init-strapi-admin.strapi.io" >> .env
-
-
