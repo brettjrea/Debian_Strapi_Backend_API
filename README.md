@@ -36,10 +36,22 @@ cd ~/my-backend && yarn deploy
 ```
 I seperated the command to start development because I am using PM2 from the link above. ☝️ 
 
-#### This is a copy-paste oneliner for those who dont want to use a script. 
+#### This is a copy-paste for those who dont want to use a script. 
 
 ```
-sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y && npm install -g yarn && yarn global add pm2 && yarn create strapi-app my-backend --quickstart --no-run && cd my-backend && echo "18.14.2" > .nvmrc && echo "const strapi = require('@strapi/strapi'); strapi().start();" > server.js && pm2 start yarn --name my-backend -- start && sleep 20 && pm2 stop my-backend && pm2 delete all && yarn add strapi-plugin-init-admin-user && echo "INIT_ADMIN_USERNAME=admin
+sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y &&
+sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y &&
+npm install -g yarn &&
+yarn global add pm2 &&
+yarn create strapi-app my-backend --quickstart --no-run &&
+cd my-backend &&
+echo "18.14.2" > .nvmrc && echo "const strapi = require('@strapi/strapi'); strapi().start();" > server.js &&
+pm2 start yarn --name my-backend -- start &&
+sleep 20 &&
+pm2 stop my-backend &&
+pm2 delete all &&
+yarn add strapi-plugin-init-admin-user &&
+echo "INIT_ADMIN_USERNAME=admin
 INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
 INIT_ADMIN_LASTNAME=Admin
