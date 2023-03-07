@@ -22,7 +22,7 @@ yarn create strapi-app my-backend --quickstart --no-run
 cd my-backend && echo "18.14.2" > .nvmrc
 
 #GraphQL plugin
-yarn add @strapi/plugin-graphql
+yarn strapi install graphql
 
 # server.js for PM2
 echo "const strapi = require('@strapi/strapi');
