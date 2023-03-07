@@ -21,6 +21,17 @@ yarn create strapi-app my-backend --quickstart --no-run
 # Navigate to the newly created Strapi project directory
 cd my-backend && echo "18.14.2" > .nvmrc
 
+# server.js for PM2
+echo "const strapi = require('@strapi/strapi');
+strapi().start();" > server.js
+
+pm2 start yarn --name my-backend -- start
+
+sleep 20
+
+pm2 stop my-backend
+
+
 # Install the init admin user plugin
 yarn add strapi-plugin-init-admin-user
 
@@ -29,8 +40,6 @@ echo "INIT_ADMIN_USERNAME=admin
 INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
 INIT_ADMIN_LASTNAME=Admin
-INIT_ADMIN_EMAIL=admin@init-strapi-admin.strapi.io" > .env
+INIT_ADMIN_EMAIL=admin@init-strapi-admin.strapi.io" >> .env
 
-# server.js for PM2
-echo "const strapi = require('@strapi/strapi');
-strapi().start();" > server.js
+
