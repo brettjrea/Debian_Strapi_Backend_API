@@ -18,11 +18,11 @@ yarn global add pm2
 # Create a new Strapi project with the quickstart flag
 yarn create strapi-app my-backend --quickstart --no-run
 
-#GraphQL plugin
-yarn add @strapi/plugin-graphql
-
 # Navigate to the newly created Strapi project directory
 cd my-backend && echo "18.14.2" > .nvmrc
+
+#GraphQL plugin
+yarn add @strapi/plugin-graphql
 
 # server.js for PM2
 echo "const strapi = require('@strapi/strapi');
