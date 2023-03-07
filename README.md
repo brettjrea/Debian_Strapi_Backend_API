@@ -44,5 +44,4 @@ INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
 INIT_ADMIN_LASTNAME=Admin
 INIT_ADMIN_EMAIL=admin@init-strapi-admin.strapi.io" >> .env
-
 ```
