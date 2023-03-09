@@ -19,7 +19,7 @@ yarn global add pm2
 yarn create strapi-app my-backend --quickstart --no-run
 
 # Navigate to the newly created Strapi project directory
-cd my-backend && echo "18.14.2" > .nvmrc
+cd my-backend && echo "18.15" > .nvmrc
 
 #GraphQL plugin
 yarn strapi install graphql
