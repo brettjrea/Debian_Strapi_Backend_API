@@ -58,3 +58,7 @@ INIT_ADMIN_FIRSTNAME=Admin
 INIT_ADMIN_LASTNAME=Admin
 INIT_ADMIN_EMAIL=admin@init-strapi-admin.strapi.io" >> .env
 ```
+
+```
+cd ~/my-backend && yarn deploy
+```
