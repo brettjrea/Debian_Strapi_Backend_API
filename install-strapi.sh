@@ -7,7 +7,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Install required packages for Strapi
-sudo apt install libvips libvips-dev libvips-tools python gir1.2-vips-8.0 make g++ -y
+sudo apt install libvips libvips-dev libvips-tools python3 gir1.2-vips-8.0 make g++ -y
 
 # Install Yarn globally using npm
 npm install -g yarn
