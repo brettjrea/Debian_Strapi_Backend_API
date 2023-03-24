@@ -43,7 +43,7 @@ pm2 delete all
 # Install the init admin user plugin
 yarn add strapi-plugin-init-admin-user
 
-# Set up environment variables and append to existing .env file.
+# Set up environment variables and append to existing .env file
 echo "INIT_ADMIN_USERNAME=admin
 INIT_ADMIN_PASSWORD=admin
 INIT_ADMIN_FIRSTNAME=Admin
